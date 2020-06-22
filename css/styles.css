@@ -115,10 +115,12 @@ h4 {
 .header-icon {
   fill: var(--primary-text-color);
 }
-.header-icon:hover {
+.header-link:hover .header-icon {
   fill: var(--primary-blue-color);
 }
-
+.header-link:focus .header-icon {
+  fill: var(--primary-blue-color);
+}
 /*Hero*/
 .section-hero {
   display: flex;
@@ -345,7 +347,10 @@ h4 {
 .company-icon {
   fill: #afb1b8;
 }
-.company-icon:hover {
+.clients-box:hover .company-icon {
+  fill: var(--primary-blue-color);
+}
+.clients-box:focus .company-icon {
   fill: var(--primary-blue-color);
 }
 .our-clients .first {
